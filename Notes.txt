@@ -1,0 +1,4 @@
+Notes about ReactJS Practice:
+
+project-1
+
