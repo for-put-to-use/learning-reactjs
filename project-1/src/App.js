@@ -2,6 +2,8 @@ import './App.css';
 import Greet from './components/Greet';
 import Hello from './components/Hello';
 import Welcome from './components/Welcome';
+import Message from './components/Message';
+import Counter from './components/Counter';
 
 //a functional component
 function App() {
@@ -30,6 +32,15 @@ function App() {
       </Welcome>
       <Welcome />
       <Hello />
+
+      <hr/>
+      <h2>State Demo:</h2>
+      <Message />
+
+      <hr />
+      <h2>State Demo 2:</h2>
+      <Counter />
+
     </div>
   );
 }
