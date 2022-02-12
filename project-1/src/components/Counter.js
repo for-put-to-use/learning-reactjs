@@ -27,7 +27,7 @@ class Counter extends Component {
       console.log("count with setState() call: ", this.state.count);
 
       //Without setState()) call, this won't update UI
-      this.state.count += 5; 
+      this.state.count += 5; //this will throw warning in console to not edit state directly
       //the value is independent of actual state when setSate is called with object as argument
       // ... instead of function
       // But, when a function is passed then the state remains constant/consistent

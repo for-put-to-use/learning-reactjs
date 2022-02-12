@@ -4,6 +4,9 @@ import Hello from './components/Hello';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import GreetDestructured from './components/GreetDestructured';
+import GreetDestructured2 from './components/GreetDestructured2';
+import WelcomeDestructured from './components/WelcomeDestructured';
 
 //a functional component
 function App() {
@@ -15,8 +18,8 @@ function App() {
       <hr/>
       <h2>Functional components:</h2>
       {/* Using Functional Component */}
-      <Greet name="Bruce" heroName="Batman"/>
-      <Greet name="Clark" heroName="Supername"/>
+      <GreetDestructured name="Bruce" heroName="Batman"/>
+      <GreetDestructured2 name="Clark" heroName="Supername"/>
       <Greet name="Diana" heroName="Wonder Woman"/>
       <Greet name="Barry Allen" heroName="Flash">
         <p>Nora Allen, Don Allen</p>
@@ -25,7 +28,7 @@ function App() {
       <h2>Class components:</h2>
       {/* Using Class Component */}
       <Welcome name="Bruce" heroName="Batman"/>
-      <Welcome name="Clark" heroName="Supername"/>
+      <WelcomeDestructured name="Clark" heroName="Supername"/>
       <Welcome name="Diana" heroName="Wonder Woman"/>
       <Welcome name="Barry Allen" heroName="Flash">
         <p>Nora Allen, Don Allen</p>
