@@ -2,4 +2,4 @@ Notes about ReactJS Practice:
 
 project-1
 
-npx create-start-app my-app
+npx create-react-app my-app
